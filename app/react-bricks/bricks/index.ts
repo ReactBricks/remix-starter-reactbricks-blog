@@ -12,7 +12,7 @@ import MyHeroUnit from './MyHeroUnit'
 
 const bricks: types.Brick<any>[] = [
   ...Website,
-  //...Blog,
+  ...Blog,
   MyHeroUnit,
   // Put here your other bricks...
 ]
