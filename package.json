@@ -12,26 +12,26 @@
     "start": "remix-serve build"
   },
   "dependencies": {
-    "@remix-run/react": "^1.2.2",
-    "dayjs": "^1.10.7",
+    "@remix-run/react": "^1.2.3",
+    "dayjs": "^1.10.8",
     "dotenv": "^16.0.0",
     "prism-theme-night-owl": "^1.4.0",
     "prismjs": "^1.27.0",
     "react": "^17.0.2",
-    "react-bricks": "^3.2.12",
+    "react-bricks": "^3.2.13",
     "react-bricks-ui": "^0.3.20",
     "react-dom": "^17.0.2",
-    "remix": "^1.2.2",
-    "@remix-run/serve": "^1.2.2"
+    "remix": "^1.2.3",
+    "@remix-run/serve": "^1.2.3"
   },
   "devDependencies": {
-    "@remix-run/dev": "^1.2.2",
+    "@remix-run/dev": "^1.2.3",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "concurrently": "^7.0.0",
     "postcss": "^8.4.7",
     "tailwindcss": "^3.0.23",
-    "typescript": "^4.5.5"
+    "typescript": "^4.6.2"
   },
   "engines": {
     "node": ">=14"
