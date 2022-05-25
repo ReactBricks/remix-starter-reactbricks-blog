@@ -16,6 +16,7 @@ const pageTypes: types.IPageType[] = [
       'social-embed',
       'code-block',
       'tweet-light',
+      'tweet',
     ],
   },
   {
