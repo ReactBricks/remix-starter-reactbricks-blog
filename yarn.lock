@@ -495,11 +495,6 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
   integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
 
-"@react-leaflet/core@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@react-leaflet/core/-/core-1.1.1.tgz#827fd05bb542cf874116176d8ef48d5b12163f81"
-  integrity sha512-7PGLWa9MZ5x/cWy8EH2VzI4T8q5WpuHbixzCDXqixP/WyqwIrg5NDUPgYuFnB4IEIZF+6nA265mYzswFo/h1Pw==
-
 "@remix-run/dev@^1.5.1":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@remix-run/dev/-/dev-1.5.1.tgz#424d245e668f59a10ff066d4d280d42eb70ac525"
@@ -1652,7 +1647,7 @@ date-fns@^2.16.1, date-fns@^2.28.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
-dayjs@^1.10.7, dayjs@^1.11.2:
+dayjs@^1.10.8, dayjs@^1.11.2:
   version "1.11.2"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.2.tgz#fa0f5223ef0d6724b3d8327134890cfe3d72fbe5"
   integrity sha512-F4LXf1OeU9hrSYRPTTj/6FbO4HTjPKXvEIC1P2kcnFurViINCVk3ZV0xAS3XVx9MkMsXbbqlK6hjseaYbgKEHw==
@@ -4464,10 +4459,10 @@ pify@^4.0.1:
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
 
-pigeon-maps@^0.19.7:
-  version "0.19.7"
-  resolved "https://registry.yarnpkg.com/pigeon-maps/-/pigeon-maps-0.19.7.tgz#c897f0fc46e88769fc0c6d39a25f178bd7055758"
-  integrity sha512-8yS5o7lr3mr5674Cfkxrk3EqPiV6WjGBrpVKNn6/40bTdH5qq2NNXK2Iu0fQcDRRZ6mTtXHX0tJAO1tp8ZKBNg==
+pigeon-maps@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/pigeon-maps/-/pigeon-maps-0.20.0.tgz#2b619a205c543691ba8395c4856ba721014e46e5"
+  integrity sha512-aBAibTi0GCNvdrbcI02u+Ac+lqDK+EEquhBnhtFcR5qE8jzKTp4bZoY3CubAqAxFhywJRMAfumC06j8VYoKlDw==
 
 pirates@^4.0.5:
   version "4.0.5"
@@ -4701,19 +4696,17 @@ react-big-calendar@^0.40.0:
     react-overlays "^4.1.1"
     uncontrollable "^7.2.1"
 
-react-bricks-ui@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-bricks-ui/-/react-bricks-ui-0.4.0.tgz#94c1f5218fae01d2d0addb20b2278a693fe2ee78"
-  integrity sha512-BVU1JVGOxt2la08A8+wQpSpp8X6dtuvxzZVCvE4cUx+T/GxzvTt8GgAXcbjDe2e6MB8g39HL1ob+R3yZKQ1m+w==
+react-bricks-ui@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/react-bricks-ui/-/react-bricks-ui-0.4.1.tgz#fe5ad318c2b5e18ea95900feafe0a508beba8012"
+  integrity sha512-OJK7kWJJe3lhVwo5sPig+xHGNJZ8hUJkbJaISPRIe86mcyw+t51AYNpgACjv1uXCJpgOExBwpUqj5DcVKCPcQA==
   dependencies:
     classnames "^2.3.1"
-    dayjs "^1.10.7"
+    dayjs "^1.10.8"
     email-validator "^2.0.4"
     jsonp "^0.2.1"
-    pigeon-maps "^0.19.7"
-    react-icons "^4.2.0"
-    react-leaflet "^3.2.1"
-    react-simple-code-editor "^0.11.0"
+    pigeon-maps "^0.20.0"
+    react-icons "^4.3.1"
 
 react-bricks@^3.2.25:
   version "3.2.25"
@@ -4784,7 +4777,7 @@ react-hook-form@^7.25.0:
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.31.2.tgz#efb7ac469810954488b7cf40be4e5017122c6e5e"
   integrity sha512-oPudn3YuyzWg//IsT9z2cMEjWocAgHWX/bmueDT8cmsYQnGY5h7/njjvMDfLVv3mbdhYBjslTRnII2MIT7eNCA==
 
-react-icons@^4.2.0, react-icons@^4.3.1:
+react-icons@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.3.1.tgz#2fa92aebbbc71f43d2db2ed1aed07361124e91ca"
   integrity sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==
@@ -4800,13 +4793,6 @@ react-is@^16.12.0, react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-leaflet@^3.2.1:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-3.2.5.tgz#bec0bfab9dd8c2b030ea630f7a0687a60322ca7d"
-  integrity sha512-Z3KZ+4SijsRbbrt2I1a3ZDY6+V6Pm91eYTdxTN18G6IOkFRsJo1BuSPLFnyFrlF3WDjQFPEcTPkEgD1VEeAoBg==
-  dependencies:
-    "@react-leaflet/core" "^1.1.1"
 
 react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
@@ -4867,11 +4853,6 @@ react-router@6.3.0:
   integrity sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==
   dependencies:
     history "^5.2.0"
-
-react-simple-code-editor@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/react-simple-code-editor/-/react-simple-code-editor-0.11.0.tgz#bb57c7c29b570f2ab229872599eac184f5bc673c"
-  integrity sha512-xGfX7wAzspl113ocfKQAR8lWPhavGWHL3xSzNLeseDRHysT+jzRBi/ExdUqevSMos+7ZtdfeuBOXtgk9HTwsrw==
 
 react-slick@^0.29.0:
   version "0.29.0"
