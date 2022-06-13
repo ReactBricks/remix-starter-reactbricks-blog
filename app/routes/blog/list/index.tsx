@@ -50,7 +50,7 @@ export default function List() {
                 ?.filter((tag) => tag !== 'popular')
                 .map((tag) => (
                   <Link
-                    to={`/tag/${tag}`}
+                    to={`tag/${tag}`}
                     key={tag}
                     className="inline-block text-sm font-bold mr-2 mb-2 transform duration-200 text-cyan-800 bg-cyan-100 hover:bg-cyan-200 hover:text-cyan-900 rounded-md px-2 py-1"
                   >
